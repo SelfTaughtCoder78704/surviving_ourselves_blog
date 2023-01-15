@@ -17,7 +17,7 @@ const config = {
 		})
 	},
 	prerender: {
-		routes: ['/', '/blog', '/blog/[:slug]']
+		routes: ['/', '/blog', '/blog/chapter-1-the-night-it-all-began']
 	}
 };
 

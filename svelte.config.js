@@ -17,7 +17,7 @@ const config = {
 		})
 	},
 	prerender: {
-		routes: ['/', '/blog', '/blog/[slug]']
+		routes: ['/', '/blog', '/blog/[:slug]']
 	}
 };
 

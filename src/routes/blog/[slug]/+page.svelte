@@ -8,7 +8,7 @@
     Surviving Ourselves: A Work of Human-Directed AI Generated Fiction of Two
     Brothers Fighting for Survival on the Run in 2000s Austin | {data.subtitle}
   </title>
-  {data.headScript}
+  {@html data.headScript}
 </svelte:head>
 
 <div class="callout">

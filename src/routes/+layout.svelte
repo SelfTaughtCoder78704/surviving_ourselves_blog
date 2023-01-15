@@ -14,7 +14,7 @@
 
 <footer>
   <p>
-    &copy; 2020 Surviving Ourselves: A Work of Fiction - The Harsh Reality of
+    &copy; 2023 Surviving Ourselves: A Work of Fiction - The Harsh Reality of
     Two Brothers on the Run in 2000s Austin
   </p>
 </footer>

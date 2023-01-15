@@ -15,6 +15,9 @@ const config = {
 			precompress: false,
 			strict: true
 		})
+	},
+	prerender: {
+		routes: ['/', '/blog', '/blog/[slug]']
 	}
 };
 

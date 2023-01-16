@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    background-color: #f5f5f5;
+    background-color: #1c1b1b;
     padding: 40px;
     border-radius: 10px;
     gap: 16px;

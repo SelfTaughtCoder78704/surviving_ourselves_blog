@@ -48,7 +48,7 @@
 
   footer {
     padding: 1rem;
-    background: #eee;
+    background-color: #1c1b1b;
     text-align: center;
   }
 </style>

@@ -17,7 +17,11 @@
     <h1>{data.title}</h1>
     <h2>{data.subtitle}</h2>
     <div class="the-content">{@html data.content}</div>
-    <p>Stay Continued...</p>
+    {#if data.nextLink !== null}
+      <a href="/blog/{data.nextLink}">Next</a>
+    {:else}
+      <a href="/blog">Back to Blog</a>
+    {/if}
   </div>
   <div class="imageGroup">
     <img src={data.image} alt={data.title + " cover art"} />

@@ -1,7 +1,12 @@
+<script>
+  // import WeekCalendar from "../components/WeekCalendar.svelte";
+</script>
+
 <nav>
   <div class="logo">
     <a href="/"><img src="/logo.png" alt="Surviving Ourselves Logo" /></a>
   </div>
+  <!-- <WeekCalendar /> -->
   <div class="links">
     <a href="/">Home</a>
     <a href="/blog">Blog</a>

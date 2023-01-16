@@ -21,6 +21,9 @@
   <a class="rowLink rowOne" href="/blog/chapter-1-the-night-it-all-began"
     ><p>Chapter 1</p></a
   >
+  <a class="rowLink rowTwo" href="/blog/chapter-2-the-hunt-for-the-caddy"
+    ><p>Chapter 2</p></a
+  >
 </main>
 
 <style>
@@ -116,6 +119,12 @@
 
   .rowOne {
     background: url("/chapter_1.png") no-repeat bottom center;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .rowTwo {
+    background: url("/chapter_2.png") no-repeat bottom center;
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }

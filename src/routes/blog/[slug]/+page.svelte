@@ -18,9 +18,10 @@
     <h2>{data.subtitle}</h2>
     <div class="the-content">{@html data.content}</div>
     {#if data.nextLink !== null}
-      <a href="/blog/{data.nextLink}">Next</a>
+      <a class="button red" href="/blog/{data.nextLink}">Next</a>
     {:else}
-      <a href="/blog">Back to Blog</a>
+      <p>To Be Continued...</p>
+      <a class="button grey" href="/blog">Back to Blog</a>
     {/if}
   </div>
   <div class="imageGroup">
@@ -32,6 +33,21 @@
 </div>
 
 <style>
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  .button.red {
+    background-color: #db2525;
+  }
+  .button.grey {
+    background-color: #333;
+  }
   .callout {
     display: flex;
     flex-direction: row;

@@ -132,6 +132,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
+  .rowThree {
+    background: url("/chapter_3.png") no-repeat bottom center;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
   .rowLink:hover {
     background-position: center center;
     box-shadow: none;

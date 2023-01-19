@@ -24,6 +24,9 @@
   <a class="rowLink rowTwo" href="/blog/chapter-2-the-hunt-for-the-caddy"
     ><p>Chapter 2</p></a
   >
+  <a class="rowLink rowThree" href="/blog/chapter-3-a-turn-of-events"
+    ><p>Chapter 3</p></a
+  >
 </main>
 
 <style>

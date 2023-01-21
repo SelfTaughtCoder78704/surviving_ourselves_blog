@@ -21,7 +21,7 @@
       <a class="button red" href="/blog/{data.nextLink}">Next</a>
     {:else}
       <p>To Be Continued...</p>
-      <a class="button grey" href="/blog">Back to Blog</a>
+      <a class="button grey" href="/likes-blog">Like Our Story?</a>
     {/if}
   </div>
   <div class="imageGroup">

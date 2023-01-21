@@ -5,9 +5,8 @@
   function sendToDataLayer(e) {
     if (browser) {
       e.preventDefault();
-      dataLayer.push({
-        event: "likes",
-      });
+
+      datalayer.push({ event_name: "likes_blog" });
     }
   }
 </script>

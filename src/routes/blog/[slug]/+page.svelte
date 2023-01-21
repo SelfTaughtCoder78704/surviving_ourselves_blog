@@ -6,7 +6,7 @@
     if (browser) {
       e.preventDefault();
 
-      dataLayer.push({ event_name: "likes_blog" });
+      dataLayer.push({ event: "likes_blog" });
     }
   }
 </script>

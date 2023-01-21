@@ -1,6 +1,15 @@
 <script>
+  import { browser } from "$app/environment";
   /** @type {import('./$types').PageData} */
   export let data;
+  function sendToDataLayer(e) {
+    if (browser) {
+      e.preventDefault();
+      dataLayer.push({
+        event: "likes",
+      });
+    }
+  }
 </script>
 
 <svelte:head>
@@ -23,6 +32,9 @@
       <p>To Be Continued...</p>
       <a class="button grey" href="/blog">Back to Blog</a>
     {/if}
+    <button on:click={(e) => sendToDataLayer(e)}
+      >If you like this blog, let us know by clicking this button</button
+    >
   </div>
   <div class="imageGroup">
     <img src={data.image} alt={data.title + " cover art"} />

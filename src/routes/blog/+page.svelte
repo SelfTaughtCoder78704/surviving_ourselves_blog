@@ -27,6 +27,9 @@
   <a class="rowLink rowThree" href="/blog/chapter-3-a-turn-of-events"
     ><p>Chapter 3</p></a
   >
+  <a href="/blog/chapter-4-a-meeting-with-avis" class="rowLink rowFour">
+    <p>Chapter 4</p>
+  </a>
 </main>
 
 <style>
@@ -90,6 +93,7 @@
   .overlay p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+
     padding: 0.5rem 1rem;
   }
   .button {
@@ -138,6 +142,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
+  .rowFour {
+    background: url("/chapter_4.png") no-repeat bottom center;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #db2525;
+  }
   .rowLink:hover {
     background-position: center center;
     box-shadow: none;
